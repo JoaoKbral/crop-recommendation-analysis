@@ -67,7 +67,11 @@ cd crop-recommendation-ml
 pip install -r requirements.txt
 ```
 
-**3. Run the notebook**
+**3. Get the dataset**
+```bash
+python get_dataset.py
+```
+**4. Run the notebook**
 ```bash
 jupyter notebook notebook.ipynb
 ```
